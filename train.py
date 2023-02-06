@@ -12,7 +12,8 @@ from model import NeuralNet
 
 with open('intents.json', 'r') as f:
     intents = json.load(f)
-
+    
+ins0()
 all_words = []
 tags = []
 xy = []
